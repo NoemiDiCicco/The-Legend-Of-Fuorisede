@@ -1,0 +1,145 @@
+
+Fuorisede and Enemies.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+Cucchiara (1)(1)
+  rotate: false
+  xy: 1, 327
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Cucchiara (1)(2)
+  rotate: false
+  xy: 1, 197
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Cucchiara (1)(3)
+  rotate: false
+  xy: 131, 327
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Cucchiara (1)(4)
+  rotate: false
+  xy: 1, 67
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Cucchiara (1)(5)
+  rotate: false
+  xy: 131, 197
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Cucchiara (1)
+  rotate: false
+  xy: 261, 327
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Grana 2
+  rotate: false
+  xy: 131, 67
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Grana run clone
+  rotate: false
+  xy: 261, 197
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Grana run
+  rotate: false
+  xy: 391, 327
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Grana
+  rotate: false
+  xy: 261, 67
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Villareene (1)(1)
+  rotate: false
+  xy: 391, 197
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Villareene (1)(2)
+  rotate: false
+  xy: 521, 327
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Villareene (1)(3)
+  rotate: false
+  xy: 391, 67
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Villareene (1)
+  rotate: false
+  xy: 521, 197
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+big Fuorisede (1)
+  rotate: false
+  xy: 1, 1
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+big Fuorisede (2) 
+  rotate: false
+  xy: 651, 391
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+big Fuorisede 
+  rotate: false
+  xy: 521, 131
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Fuorisede
+  rotate: false
+  xy: 67, 1
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+virus16px 2
+  rotate: false
+  xy: 651, 325
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+virus16px clone
+  rotate: false
+  xy: 717, 391
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
