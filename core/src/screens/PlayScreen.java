@@ -26,6 +26,7 @@ import com.fuorisedelegend.game.GameMainClass;
 import scenes.Hud;
 import sprites.Fuorisede;
 import tools.B2WorldCreator;
+import tools.WorldContactListener;
 
 public class PlayScreen implements Screen {
 	
@@ -78,6 +79,8 @@ public class PlayScreen implements Screen {
 		//player creating
 		player= new Fuorisede(world, this);
 		
+		world.setContactListener(new WorldContactListener());
+		
 	}
 	
 	public TextureAtlas getAtlas() {
@@ -94,9 +97,9 @@ public class PlayScreen implements Screen {
 		if (Gdx.input.isKeyJustPressed(Input.Keys.UP))
 			player.b2body.applyLinearImpulse(new Vector2(0,4f), player.b2body.getWorldCenter(),true);
 		if (Gdx.input.isKeyPressed(Input.Keys.RIGHT) && player.b2body.getLinearVelocity().x <= 2)
-			player.b2body.applyLinearImpulse(new Vector2(0.1f, 4), player.b2body.getWorldCenter(), true);
+			player.b2body.applyLinearImpulse(new Vector2(0.1f, 0), player.b2body.getWorldCenter(), true);
 		if (Gdx.input.isKeyPressed(Input.Keys.LEFT) && player.b2body.getLinearVelocity().x >= -2)
-			player.b2body.applyLinearImpulse(new Vector2(-0.1f, 4), player.b2body.getWorldCenter(), true);	
+			player.b2body.applyLinearImpulse(new Vector2(-0.1f, 0), player.b2body.getWorldCenter(), true);	
 	}
 	
 	
@@ -105,6 +108,8 @@ public class PlayScreen implements Screen {
 		handleInput(dt);
 		
 		world.step(1/60f, 6, 2);
+		
+		player.update(dt);
 		
 		gamecam.position.x = player.b2body.getPosition().x;
 		

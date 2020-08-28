@@ -28,6 +28,7 @@ public class B2WorldCreator {
 			bdef.position.set((rect.getX() + rect.getWidth() / 2) / GameMainClass.PPM, (rect.getY() + rect.getHeight() / 2) / GameMainClass.PPM);
 			
 			body = world.createBody(bdef);
+			
 			shape.setAsBox(rect.getWidth() / 2 / GameMainClass.PPM, rect.getHeight() / 2 / GameMainClass.PPM);
 			fdef.shape = shape;
 			body.createFixture(fdef);

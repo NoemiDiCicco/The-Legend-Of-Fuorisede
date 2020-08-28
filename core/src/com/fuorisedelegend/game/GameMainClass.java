@@ -26,8 +26,4 @@ public class GameMainClass extends Game {
 		super.render(); //delegates the render method to PlayScreen class
 	}
 	
-	@Override
-	public void dispose () {
-		super.dispose();
-	}
 }
