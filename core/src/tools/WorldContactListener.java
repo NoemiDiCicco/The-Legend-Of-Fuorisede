@@ -25,7 +25,6 @@ public class WorldContactListener implements ContactListener {
 				((InteractiveTileObject) object.getUserData()).onHeadHit();
 			}
 		}
-		
 	}
 
 	@Override

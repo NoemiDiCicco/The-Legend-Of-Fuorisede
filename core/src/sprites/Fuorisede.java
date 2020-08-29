@@ -111,6 +111,8 @@ public class Fuorisede extends Sprite {
 		FixtureDef fdef = new FixtureDef();
 		CircleShape shape = new CircleShape();
 		shape.setRadius(6 / GameMainClass.PPM);
+		fdef.filter.categoryBits = GameMainClass.FUORISEDE_BIT;
+		fdef.filter.maskBits = GameMainClass.DEFAULT_BIT | GameMainClass.CFU_BIT | GameMainClass.BRICK_BIT;
 		
 		fdef.shape = shape;
 		b2body.createFixture(fdef);
